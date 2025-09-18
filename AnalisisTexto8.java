@@ -29,5 +29,6 @@ public class AnalisisTexto8 {
         } System.out.println("La cantidad de palabras es: " + cantidadPalabras/2);
           System.out.println("La cantidad de letras es: " + cantidadLetras);
           System.out.println("La cantidad de espacios es: " + cantidadEspacios/2);
-    }
+          scanner.close();
+    }      
 }

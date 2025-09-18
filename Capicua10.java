@@ -17,6 +17,6 @@ public class Capicua10 {
             System.out.println("El número " + numero + " es capicúa.");
         } else {
             System.out.println("El número " + numero + " NO es capicúa.");
-        }
+        } scanner.close();
     }
 }

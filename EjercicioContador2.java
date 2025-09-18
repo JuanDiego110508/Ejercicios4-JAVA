@@ -19,6 +19,6 @@ public class EjercicioContador2 {
                 numero /= 10;
                 contador++;
             } System.out.print("El numero tiene: " + contador + " digitos. ");
-        }
+        } scanner.close();
     }
 }

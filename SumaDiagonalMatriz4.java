@@ -23,5 +23,6 @@ public class SumaDiagonalMatriz4 {
         }
         System.out.println("Suma diagonal Principal: " + sumaPrincipal);
         System.out.print("Suma diagonal Secundaria: " + sumaSecundaria);
+        scanner.close();
     }
 }

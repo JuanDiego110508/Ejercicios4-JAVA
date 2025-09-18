@@ -22,6 +22,6 @@ public class TrianguloPascal5 {
                 System.out.print(pascal[i][j] + " ");
             }
             System.out.println();
-        }
+        } scanner.close();
     }
 }

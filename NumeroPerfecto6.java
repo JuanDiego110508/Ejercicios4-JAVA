@@ -19,6 +19,6 @@ public class NumeroPerfecto6 {
             System.out.println("El numero " + numero + " es perfecto. ");
         } else {
             System.out.println("El numero " + numero + " NO es perfecto. ");
-        }
+        } scanner.close();
     }
 }

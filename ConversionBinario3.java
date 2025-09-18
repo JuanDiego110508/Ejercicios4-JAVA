@@ -16,6 +16,6 @@ public class ConversionBinario3 {
                 binario += numero % 2;
                 numero /= 2;
             } System.out.print("El numero en binario es: " + binario);
-        }
+        } scanner.close();
     }
 }
