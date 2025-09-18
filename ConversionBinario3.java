@@ -10,11 +10,10 @@ public class ConversionBinario3 {
         if(numero == 0) {
             System.out.print("El numero binario es 0. ");
         } else {
-            String binario = "";
+            String binario = " ";
 
             while(numero > 0) {
-                int residuo = numero % 2;
-                binario += residuo;
+                binario += numero % 2;
                 numero /= 2;
             } System.out.print("El numero en binario es: " + binario);
         }
